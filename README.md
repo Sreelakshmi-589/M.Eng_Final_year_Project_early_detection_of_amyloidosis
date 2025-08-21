@@ -9,20 +9,23 @@ Amyloidosis is a rare, fatal disease caused by the deposition of abnormal amyloi
 ## Repository Structure
 
 The project is organized into two main folders, Approach 1 and Approach 2, each representing a distinct experimental track.
+
+.
 └── 00_Final_Project_MENG/
-├── Approach 1/
-│ ├── Dataset_1/ # Contains the pre-processed binary feature data and the split notebook.
-│ ├── MLP/ # Saved artifacts (model, scaler, predictions) for the MLP on Dataset 1.
-│ ├── MLP-Notebooks/ # Jupyter notebooks for the MLP workflow (Train, Val, Test).
-│ ├── TabTransformer/ # Saved artifacts for the TabTransformer on Dataset 1.
-│ └── TabTransformer-Notebooks/ # Jupyter notebooks for the TabTransformer workflow.
-│
-└── Approach 2/
-├── Dataset_2/ # Contains the raw patient code data and ICD map.
-├── MLP/ # Saved artifacts for the MLP on Dataset 2 (TF-IDF).
-├── MLP_Notebooks/ # Jupyter notebooks for the MLP (TF-IDF) workflow.
-├── TabTransformer/ # Saved artifacts for the final TabTransformer model.
-└── TabTransformer_Notebooks/ # Notebooks for the final TabTransformer (leakage-corrected)
+    ├── Approach 1/
+    │   ├── Dataset_1/                # Contains the pre-processed binary feature data and the split notebook.
+    │   ├── MLP/                      # Saved artifacts (model, scaler, predictions) for the MLP on Dataset 1.
+    │   ├── MLP-Notebooks/            # Jupyter notebooks for the MLP workflow (Train, Val, Test).
+    │   ├── TabTransformer/           # Saved artifacts for the TabTransformer on Dataset 1.
+    │   └── TabTransformer-Notebooks/ # Jupyter notebooks for the TabTransformer workflow.
+    │
+    └── Approach 2/
+        ├── Dataset_2/                # Contains the raw patient code data and ICD map.
+        ├── MLP/                      # Saved artifacts for the MLP on Dataset 2 (TF-IDF).
+        ├── MLP_Notebooks/            # Jupyter notebooks for the MLP (TF-IDF) workflow.
+        ├── TabTransformer/           # Saved artifacts for the final TabTransformer model.
+        └── TabTransformer_Notebooks/ # Notebooks for the final TabTransformer (leakage-corrected).
+
 
 
 ## Methodology Overview
