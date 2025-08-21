@@ -9,7 +9,7 @@ Amyloidosis is a rare, fatal disease caused by the deposition of abnormal amyloi
 ## Repository Structure
 
 The project is organized into two main folders, Approach 1 and Approach 2, each representing a distinct experimental track.
-
+```
 .
 └── 00_Final_Project_MENG/
     ├── Approach 1/
@@ -26,7 +26,7 @@ The project is organized into two main folders, Approach 1 and Approach 2, each 
         ├── TabTransformer/           # Saved artifacts for the final TabTransformer model.
         └── TabTransformer_Notebooks/ # Notebooks for the final TabTransformer (leakage-corrected).
 
-
+```
 
 ## Methodology Overview
 
